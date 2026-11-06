@@ -1,0 +1,6 @@
+method,wape_pct,bias_pct,forecasts
+LightGBM (mean),30.65,3.6,155269
+Exponential smoothing,32.03,-0.43,155269
+Moving average,33.69,-0.39,155269
+Croston (SBA),40.11,-1.53,155269
+Seasonal naive,56.41,0.44,151149

@@ -1,0 +1,13 @@
+reference,challenger,fill_pct,saving_pct,low_pct,high_pct
+Textbook,LightGBM + error,92.5,9.8,7.8,11.6
+Textbook,LightGBM + error,95.0,10.7,8.8,12.3
+Textbook,LightGBM + error,97.0,12.2,9.7,14.3
+Smoothing,LightGBM + error,92.5,5.9,4.2,7.1
+Smoothing,LightGBM + error,95.0,7.4,5.7,8.8
+Smoothing,LightGBM + error,97.0,8.4,6.3,10.2
+Textbook,Smoothing,92.5,4.1,3.4,5.3
+Textbook,Smoothing,95.0,3.6,2.7,4.5
+Textbook,Smoothing,97.0,4.1,3.3,4.8
+LightGBM + error,LightGBM quantiles,92.5,-1.3,-3.1,0.2
+LightGBM + error,LightGBM quantiles,95.0,-1.6,-3.6,-0.1
+LightGBM + error,LightGBM quantiles,97.0,0.5,-1.6,2.0

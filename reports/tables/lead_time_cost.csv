@@ -1,0 +1,4 @@
+fill_pct,textbook_stock_1wk,textbook_stock_2wk,textbook_increase_pct,lgbm_error_stock_1wk,lgbm_error_stock_2wk,lgbm_error_increase_pct,lead_time_week_vs_forecast_ratio
+92.5,69148.1,102464.6,48.2,62384.1,93705.0,50.2,4.9
+95.0,86487.9,126818.7,46.6,77192.9,115605.4,49.8,4.3
+97.0,110405.1,,,96960.3,143852.5,48.4,

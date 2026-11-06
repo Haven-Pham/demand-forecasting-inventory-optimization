@@ -1,0 +1,4 @@
+store,wape_moving_average,wape_smoothing,wape_lightgbm,saving_vs_textbook_pct,low_vs_textbook,high_vs_textbook,saving_vs_smoothing_pct,low_vs_smoothing,high_vs_smoothing,saving_quantile_vs_error_pct,low_quantile_vs_error,high_quantile_vs_error
+CA_1,33.7,32.0,30.6,10.7,8.8,12.3,7.4,5.7,8.8,-1.6,-3.6,-0.1
+TX_2,35.4,33.6,32.7,7.9,5.2,10.2,4.1,1.7,6.1,-1.8,-3.4,-0.3
+WI_3,36.1,34.5,33.0,10.9,9.2,12.8,7.2,5.9,8.5,-2.6,-6.2,-0.3

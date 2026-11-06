@@ -1,0 +1,17 @@
+# OS / editors
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+
+# M5 files and item-level forecasts: downloaded or rebuilt, never committed
+data/raw/
+data/processed/

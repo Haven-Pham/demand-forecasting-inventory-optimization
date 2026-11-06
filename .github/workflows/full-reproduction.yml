@@ -1,0 +1,29 @@
+name: Full reproduction
+
+# Downloads the data, reruns every backtest and rebuilds the notebook and workbook. It takes over an hour, so it runs on request.
+on:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - run: python scripts/download_data.py
+      - run: python scripts/run_backtest.py CA_1 TX_2 WI_3
+      - run: python scripts/run_backtest.py CA_1 --horizon=3
+      - run: python scripts/run_notebook.py
+      - run: python scripts/build_excel_report.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rebuilt-reports
+          path: |
+            notebooks/
+            reports/

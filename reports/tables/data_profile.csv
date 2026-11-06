@@ -1,0 +1,10 @@
+check,value
+Items,3049.0
+Full weeks,277.0
+Units sold in test weeks,1621043.0
+Revenue in test weeks ($),5153939.0
+Average price per unit ($),3.18
+Listed item-weeks with zero sales (%),20.7
+"Suspected stockout item-weeks, all (%)",1.69
+"Suspected stockout item-weeks, test",2499.0
+Units sold while not listed,0.0

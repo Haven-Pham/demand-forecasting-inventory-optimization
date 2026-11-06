@@ -1,0 +1,5 @@
+policy,stock_at_92.5pct_fill,stock_at_95pct_fill,stock_at_97pct_fill
+Moving average + demand variability,69148.0,86488.0,110405.0
+Smoothing + forecast error,66279.0,83382.0,105856.0
+LightGBM + forecast error,62384.0,77193.0,96960.0
+LightGBM quantiles,63201.0,78429.0,96487.0
